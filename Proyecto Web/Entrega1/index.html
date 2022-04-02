@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+   <head>
+       <meta charset="utf-8" />
+       <title>HealthyLife</title>
+       <!--estilos-->
+       <script src="https://kit.fontawesome.com/badb8c0ad0.js" crossorigin="anonymous"></script>
+       <link rel="stylesheet"  href="css/reset.css" type="text/css"/>
+       <link rel="stylesheet" href="css/menu.css" type="text/css"/>
+       <link rel="stylesheet"  href="css/estilos.css" type="text/css"/>
+       <link rel="preconnect" href="https://fonts.googleapis.com">
+       <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
+
+       <link rel="stylesheet" href="css/icons.css" type="text/css"/>
+       <!--javascript-->
+    </head>
+   <body> 
+<!--cabeza + menu-->
+       <header></header>
+       <i class="fa-solid fa-heart-pulse"></i>
+        <nav>
+                <ul id="menu"> 
+                    <li class="visited"><a href="#" title="inicio"><span class="material-icons">
+                        home</span>Inicio</a></li>
+                    <li><a href="actividadfisica.html" title="fisico"><span class="material-icons">
+                        fitness_center </span>Actividad Fisica</a></li>
+                    <li><a href="alimentacion.html" title="alimentacion"><span class="material-icons">restaurant</span>Alimentación</a></li>
+                    <li><a href="mental.html" title="mental"><span class="material-icons">psychology</span>Salud Mental</a></li>
+                    <li class='visited'><a href="login.html" title="login"><span class="material-icons">login </span>Login</a></li>
+                </ul>
+                
+         </nav>
+
+<!--fin cabeza+menu-->
+<div class="col-1">
+    <div class="form-box">
+        <div class="form">
+            <form class="login-form">
+                <center><h1 class="main-heading">Formulario de Registro</h1></center>
+                <input type="text"placeholder="nombre de usuario"/>
+                <input type="password"placeholder="contraseña"/>
+                <button>LOGIN</button>
+                <p class="message">No se encuentra registrado? <a href="#">Registrarse</a></p>
+            </form>
+            <form class="register-form">
+                <center><h1 class="main-heading">Formulario de Registro</h1></center>
+                <input type="text" placeholder="nombre de usuario"/>
+                <input type="text" placeholder="id-email"/>
+                <input type="password" placeholder="contraseña"/>
+                <button>Registrarse</button>
+                <p class="message">Ya se encuentra registrado?<a href="#">Login</a>
+                </p>
+            </form>
+         </div>
+    </div>
+</div>
+<div class="col-1">
+</div>
+</div>
+</div>
+</div>
+<script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+</script>
+<script>
+$('.message a').click(function(){$('form').animate({height: "toggle",opacity: "toggle"},"slow");});
+</script>
+
+
+  <footer><span>Realizado por : JOCAFRA</span></footer>
+
+    
+   </body>
+</html>

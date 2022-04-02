@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Video</title>
+        <meta name="description" content="">
+
+        <link rel="stylesheet"  href="css/reset.css" type="text/css"/>
+        <link rel="stylesheet" href="css/menu.css" type="text/css"/>
+        <link rel="stylesheet" href="css/estilos.css" type="text/css"/>
+        <link rel="stylesheet" href="css/detallevideo.css" type="text/css"/>
+      
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+       rel="stylesheet">
+        <link rel="stylesheet" href="css/icons.css" type="text/css"/>
+    </head>
+    <body>
+        <!--cabeza + menu-->
+        <div class="col-1">
+            <div class="form-box">
+                <div class="form">
+                    <form class="login-form">
+                        <center><h1 class="main-heading">Formulario de Registro</h1></center>
+                        <input type="text"placeholder="nombre de usuario"/>
+                        <input type="password"placeholder="contraseña"/>
+                        <button>Login</button>
+                        <p class="message">No se encuentra registrado? <a href="#">Registrarse</a></p>
+                    </form>
+                    <form class="register-form">
+                        <center><h1 class="main-heading">Formulario de Registro</h1></center>
+                        <input type="text" placeholder="nombre de usuario"/>
+                        <input type="text" placeholder="email-id"/>
+                        <input type="password" placeholder="contraseña"/>
+                        <button>Registrarse</button>
+                        <p class="message">Ya se encuentra registrado?<a href="#">Login</a>
+                        </p>
+                    </form>
+                 </div>
+            </div>
+        </div>
+        <div class="col-1">
+        </div>
+        </div>
+        </div>
+        </div>
+        <script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+        </script>
+        <script>
+        $('.message a').click(function(){$('form').animate({height: "toggle",opacity: "toggle"},"slow");});
+        </script>
+        
+
+
+<footer><span>Realizado por : XXXXX</span></footer>
+
+</body>
+</html>

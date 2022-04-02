@@ -1,0 +1,30 @@
+h1 {
+    color: black;
+}
+
+/*INVERTIR PADDING, POR ALGUINA RAZON FUNCIONAN AL REVEZ*/
+
+
+
+.info {
+    color:black;
+    padding-left: 2%;
+
+}
+
+
+.fotosSM{
+    padding-left: 60%;
+}
+
+
+
+
+footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:60px;
+    width:100%;
+    background:#999;
+}
